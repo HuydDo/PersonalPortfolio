@@ -1,0 +1,301 @@
+/* Color Palette
+#2B2D42 - dark blue
+#8D99AE - light blue
+#EDF2F4 blue/white
+#EF233C - red
+*/
+/* Pure Social media Icons using font awesome import */
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+html,body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #8D99AE;
+  text-align: center;
+}
+
+/* About */
+.welcome{
+ height: 100vh;
+ text-align: center;
+ padding-top: 20vh;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+div.polaroid {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 180px;
+  height: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0,      0.19);
+  margin-bottom: 25px;
+  border-radius: 5px;
+}
+
+div.container {
+  /*text-align: center;
+  padding: 5px 10px;
+  color:white;
+  font-size:0.8em;*/
+  margin-top: -38px;
+  border-radius: 0px 0px 5px 5px;
+  padding: 10px 20px;
+  background-color: #000000;
+  opacity: 0.7;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+ }
+
+div.container p {
+  margin:0%;
+  /*font-weight: bold;*/
+  color:white;
+  font-size:0.8em;
+}
+
+.palaroid-title{
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+div.container p:hover{
+color: #8D99AE;
+}
+
+.projects {
+  background-color:#cce6ff;
+  padding-top:20px;
+ }
+
+.project-title{
+  text-decoration: none;
+  color: #8D99AE;
+  padding:2px;
+  margin-bottom:20px;
+}
+
+
+/* shorthand 
+.bgimg{
+  background: url(https://picsum.photos/200/300/?random) no-repeat               center fixed;
+  background-size: cover;
+}
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bgimg-1 {
+  background-image: url(https://picsum.photos/200/300/?random);
+  min-height: 100%;
+}
+.bgimg-2 {
+   background-image: url("https://picsum.photos/200/300/5");
+  min-height: 100px;
+}
+*/
+
+footer {
+  background: #2B2D42;
+  color: #8D99AE;
+}
+
+/* navigation */
+nav ul{
+  background-color: #ddd;
+  /*background: #2B2D42;*/
+  position:fixed;
+  top:0px;
+  width:100%;
+}
+
+nav a:hover{
+  background-color:#333;
+  color: #f2f2f2;
+}
+
+nav li{
+  float:left;
+}
+
+nav li a{
+  display:block;
+  padding:8px;
+  color: black;
+  text-decoration:none;
+  color: #8D99AE;
+ 
+ }
+
+ul {
+  list-style-type:none;
+  margin: 0px;
+  padding: 0px;
+  overflow:hidden;
+}
+
+@media screen and (max-width: 600px){
+   li {
+     float: none;
+     width: 100%;
+     text-align: center;
+   }
+   .welcome {
+    text-align: center;
+   }
+}
+
+/* footer */
+.content-wrap {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 60px 50px;
+  overflow: hidden;
+  
+}
+
+footer {
+  text-align: center;
+}
+.contact-info a {
+  /* background: white; */
+  padding: 0;
+  display: inline-block;
+  color: #fff;
+}
+
+/* Icon
+------------------------*/
+._12 {
+  font-size: 1.2em;
+}
+._14 {
+  font-size: 1.4em;
+}
+ul {
+  padding:0;
+  /* list-style: none; */
+}
+.footer-social-icons {
+  width: 350px;
+  display:block;
+  margin: 0 auto;
+}
+.social-icon {
+  color: #fff;
+}
+ul.social-icons {
+  margin-top: 10px;
+}
+.social-icons li {
+  vertical-align: top;
+  display: inline;
+}
+.social-icons a {
+  color: #fff;
+  text-decoration: none;
+}
+.fa-github{
+  padding:10px 14px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
+  background: #2B2D42;
+}
+.fa-github:hover {
+  background-color: #040204;
+}
+.fa-envelope
+{
+  padding:10px 12px;
+   -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
+  background: #2B2D42;
+}
+.fa-envelope:hover {
+  background-color: #DC622C;
+}
+.fa-facebook {
+  padding:10px 14px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
+  background: #2B2D42;
+  /* background-color: #322f30; */
+}
+.fa-facebook:hover {
+  background-color: #3d5b99;
+}
+.fa-twitter {
+  padding:10px 12px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
+  background: #2B2D42;
+ }
+.fa-twitter:hover {
+  background-color: #00aced;
+}
+.fa-rss {
+  padding:10px 14px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
+  background: #2B2D42;
+ }
+.fa-rss:hover {
+  background-color: #eb8231;
+}
+.fa-youtube {
+  padding:10px 14px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
+  background: #2B2D42;
+ }
+.fa-youtube:hover {
+  background-color: #e64a41;
+}
+.fa-linkedin {
+  padding:10px 14px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
+  background: #2B2D42;
+}
+.fa-linkedin:hover {
+  background-color: #0073a4;
+}
+.fa-google-plus {
+  padding:10px 9px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
+  background: #2B2D42;
+}
+.fa-google-plus:hover {
+  background-color: #e25714;
+}
